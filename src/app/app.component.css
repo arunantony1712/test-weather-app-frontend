@@ -3,3 +3,17 @@
     flex-flow: row wrap;
     justify-content: space-around;
 }
+
+.main {
+    max-width: 800px;
+}
+
+app-clickable-tile:not(:last-child) {
+    margin-right: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    app-clickable-tile:not(:last-child) {
+        margin-right: 0;
+    }
+}

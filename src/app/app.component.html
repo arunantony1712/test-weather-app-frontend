@@ -3,17 +3,19 @@
     Weather Application
   </h1>
 </div>
-<div class="cities">
-  <app-clickable-tile
-    *ngFor="let weather of weatherForcast"
-    [city]="weather.cityName" 
-    [temperature]="weather.temperatureNow"
-    (click4Forcast)="getWeather($event)"
-    [clicked]="selectedWeather && (selectedWeather.cityName === weather.cityName)"
-    >
-  </app-clickable-tile>  
+<div class="main">
+  <div class="cities">
+    <app-clickable-tile
+      *ngFor="let weather of weatherForcast"
+      [city]="weather.cityName" 
+      [temperature]="weather.temperatureNow"
+      (click4Forcast)="getWeather($event)"
+      [clicked]="selectedWeather && (selectedWeather.cityName === weather.cityName)"
+      >
+    </app-clickable-tile>  
+  </div>
+  
+  <hr>
+  
+  <router-outlet></router-outlet>  
 </div>
-
-<hr>
-
-<router-outlet></router-outlet>
