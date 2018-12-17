@@ -1,0 +1,10 @@
+<div class="forCast" *ngIf="!!selectedWeather">
+  <span class="forCastCityName">{{selectedWeather.cityName}}</span>
+  <div class="forCastTemp">
+    <span 
+      *ngFor="let t of selectedWeather.forCast"
+    >
+      {{t}}&#8451;
+    </span>
+  </div>
+</div>

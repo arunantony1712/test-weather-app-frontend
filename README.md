@@ -2,6 +2,22 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0-rc.0.
 
+# Functionalities of the app
+
+- This is a simple app which displays few European cities and their respective at-present temperatures.
+(the list of cities and temperature is fetched from api on app initial load).
+
+- User have option to click on these cities and the app make rest call to retrieve the weather forecast of next five days.
+
+# App structure
+-   please find below the new components and services are added
+-   |
+    |--src
+        |--app
+            |--services     `services used in through out the app`
+            |--app-components       `those angular components that are dependent to the application`
+            |--shared-component     `reusable components, which are independent. component interaction is done via @Input and @Output attributes.`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

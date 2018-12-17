@@ -1,0 +1,8 @@
+<div
+  class="tile"
+  [ngClass]="{clicked: clicked}"
+  (click)="onTileClick()"
+>
+  <span class="city">{{city}}</span>
+  <span class="temp">{{temperature}}<span class="subscript">&#8451;</span></span>
+</div>

@@ -1,0 +1,18 @@
+.forCast {
+    border: 2px solid red;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.forCastCityName {
+    font-weight: bold;
+}
+
+.forCastTemp span{
+    font-size: 16px;
+    margin: 16px;
+}

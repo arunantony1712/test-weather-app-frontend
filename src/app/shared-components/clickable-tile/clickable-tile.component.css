@@ -1,0 +1,34 @@
+.tile {
+    border: 2px solid red;
+    color: red;
+    height: 100px;
+    width: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover {
+    background-color: #fad7d7;  
+}
+
+@media only screen and (max-width: 600px) {
+    .tile {
+        margin-bottom: 16px; 
+    }
+}
+
+.city {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.temp {
+    font-size: 16px;
+}
+
+.clicked {
+    background-color: #f8bcbc;
+}
