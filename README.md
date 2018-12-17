@@ -10,14 +10,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - User have option to click on these cities and the app make rest call to retrieve the weather forecast of next five days.
 
 # App structure
--   please find below the new components and services are added
-``
-    |--src<br/>  
-        |--app<br/> 
-            |--services     `services used in through out the app`<br/>
-            |--app-components       `those angular components that are dependent to the application`<br/>
-            |--shared-component     `reusable components, which are independent. component interaction is done via @Input and @Output attributes.`<br/>
-``
+-   please find below the new components and services are added <br>
+
+    |--src <br>
+     &nbsp;&nbsp;|--app <br> 
+             &nbsp;&nbsp; &nbsp;&nbsp;|--services     `services used in through out the app` <br>
+             &nbsp;&nbsp; &nbsp;&nbsp;|--app-components       `those angular components that are dependent to the application` <br>
+             &nbsp;&nbsp; &nbsp;&nbsp;|--shared-component     `reusable components, which are independent. component interaction is done via @Input and @Output attributes.` <br>
+
 
 ## Development server
 
