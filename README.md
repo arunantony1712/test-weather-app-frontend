@@ -11,12 +11,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # App structure
 -   please find below the new components and services are added
--   |
-    |--src
-        |--app
-            |--services     `services used in through out the app`
-            |--app-components       `those angular components that are dependent to the application`
-            |--shared-component     `reusable components, which are independent. component interaction is done via @Input and @Output attributes.`
+``
+    |--src<br/>  
+        |--app<br/> 
+            |--services     `services used in through out the app`<br/>
+            |--app-components       `those angular components that are dependent to the application`<br/>
+            |--shared-component     `reusable components, which are independent. component interaction is done via @Input and @Output attributes.`<br/>
+``
 
 ## Development server
 
