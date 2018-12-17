@@ -23,6 +23,7 @@
 .city {
     font-size: larger;
     font-weight: bold;
+    word-break: break-all;
 }
 
 .temp {
